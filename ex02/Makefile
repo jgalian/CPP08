@@ -4,7 +4,7 @@ SRC =	main.cpp
 OBJ = $(SRC:.cpp=.o)
 INC = -I.
 
-CXXFLAGS = -Wall -Wextra -Werror -g -Wshadow -std=c++11 $(INC) $(SANITIZE) $(DEBUG)
+CXXFLAGS = -Wall -Wextra -Werror -g -Wshadow -std=c++98 $(INC) $(SANITIZE) $(DEBUG)
 CXX = clang++
 
 SANITIZE =

@@ -6,8 +6,32 @@
 
 int	main(void)
 {
-	std::vector<int> vec {3, 63, -23, 67, 62, 34, 42, -356, 53, 67, 23, 15};
-	std::list<int> lst {3, 63, -23, 67, 62, 34, 42, -356, 53, 67, 23, 15};
+	std::vector<int> vec;
+	std::list<int> lst;
+
+	vec.push_back(3);
+	vec.push_back(63);
+	vec.push_back(-23);
+	vec.push_back(67);
+	vec.push_back(62);
+	vec.push_back(34);
+	vec.push_back(42);
+	vec.push_back(-356);
+	vec.push_back(53);
+	vec.push_back(67);
+	vec.push_back(23);
+
+	lst.push_back(3);
+	lst.push_back(63);
+	lst.push_back(-23);
+	lst.push_back(67);
+	lst.push_back(34);
+	lst.push_back(62);
+	lst.push_back(42);
+	lst.push_back(-356);
+	lst.push_back(53);
+	lst.push_back(67);
+	lst.push_back(23);
 
 	std::cout << "/////////////////  VECTOR  ////////////////" << std::endl;
 
